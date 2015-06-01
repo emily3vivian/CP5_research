@@ -1,0 +1,93 @@
+<style type="text/css">
+body{
+	background: black;
+}
+
+blockquote{
+	color: white;
+}
+
+h1{
+	color: purple;
+	font-family: 'Raleway', sans-serif; font-weight 700; 
+}
+
+h2{
+		color: gray;
+		font-family: 'Raleway', sans-serif; font-weight 400;
+}
+
+h3{
+	color: teal;
+	font-family: 'Raleway', sans-serif; font-weight 400;
+}
+div{
+	border-radius: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+}
+
+section{
+	width:50%;
+		margin-top: 10px;
+	float: left;
+}
+
+img{
+	border: 5px solid teal;
+}
+
+.pattern-1 img{
+	height: 300px;
+	width: 300px;
+}
+
+{
+.pattern-1{
+	border: 3px solid teal;
+	float: left;
+	margin: 0 30px 30px;
+	height: 100px;
+	width: 100px;
+}
+
+
+/*media queries*/
+@media (max-width: 1024px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: red;
+  }
+  */
+} 
+
+/*tablet*/
+@media (max-width: 768px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: blue;
+  }
+  */
+
+  article section {
+		float: none;
+		width: 100%;
+		width: 100%;
+	}
+} 
+
+/*mobile*/
+@media (max-width: 480px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: green;
+  }
+  */
+} 

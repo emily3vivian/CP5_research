@@ -21,6 +21,16 @@ h3{
 	color: teal;
 	font-family: 'Raleway', sans-serif; font-weight 400;
 }
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: teal;
+	text-decoration: none;
+}
+	
 div{
 	border-radius: 15px;
 	margin-right: auto;
